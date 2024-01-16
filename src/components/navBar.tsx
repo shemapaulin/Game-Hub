@@ -7,7 +7,7 @@ import ColorModeSwitch from "./ColorModeSwitch"
 const navBar = () => {
   return (
     <HStack justifyContent='space-between' padding='10px'>
-        <Image src={newLgo}  boxSize='60px' pl={3}/>
+        <Image src={newLgo}  boxSize='60px' borderRadius={6} pl={3}/>
         <ColorModeSwitch/>
     </HStack>
   )
