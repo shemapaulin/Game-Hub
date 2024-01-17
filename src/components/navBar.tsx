@@ -8,8 +8,8 @@ interface prop{
 }
 const navBar = ({onSearch}:prop) => {
   return (
-    <HStack justifyContent="space-between" padding="10px">
-      <Image src={newLgo} boxSize="60px" borderRadius={6} pl={3} />
+    <HStack justifyContent="space-between" padding="15px">
+      <Image src={newLgo} boxSize="60px" borderRadius={10} pl={0} />
       <SearchInput onSearch={onSearch}/>
       <ColorModeSwitch />
     </HStack>

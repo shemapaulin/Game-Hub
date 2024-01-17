@@ -15,8 +15,8 @@ const SortSelector = ({onSelectSortOrder}:props) => {
     ]
     
     return (
-     <Menu>
-      <MenuButton as={Button} rightIcon={<BsChevronDown/>}>
+     <Menu >
+      <MenuButton paddingLeft={2} as={Button} rightIcon={<BsChevronDown/>}>
          Order by: Relevance
       </MenuButton>
       <MenuList>
